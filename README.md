@@ -1,2 +1,2 @@
 # suhelkhan.github.io
-A course website project
+A course selling website project
