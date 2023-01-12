@@ -135,7 +135,7 @@ nav {
 /*======= CHANGE NAVBAR COLOR  USING JAVASCRIPT =====*/
 .window-scroll {
   background-color: var(--color-primary);
-  box-shadow: 1rem 2rem rgba(189, 189, 189, 0);
+  box-shadow: 1rem 2rem rgba(37, 32, 32, 0);
 }
 
 .nav__container {
