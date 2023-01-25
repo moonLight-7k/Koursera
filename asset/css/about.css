@@ -1,5 +1,5 @@
 body {
-  background-image: url("../images/bg-texture.png");
+  background-image: url("./images/bg-texture.png");
 }
 
 /* ================== ACHIEVEMENT ================ */
@@ -69,6 +69,7 @@ body {
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
 }
+
 .team__member {
   background: var(--color-bg3);
   padding: 2rem;
@@ -81,13 +82,13 @@ body {
 
 .team__member:hover {
 
-   background: transparent;
-   border-color: var(--color-primary);
+  background: transparent;
+  border-color: var(--color-primary);
 }
 
 .team__member-info * {
-text-align: center;
-margin-top: 1.4rem;
+  text-align: center;
+  margin-top: 1.4rem;
 
 }
 
@@ -111,8 +112,7 @@ margin-top: 1.4rem;
 }
 
 
-.team__member:hover
-.team__member-socials {
+.team__member:hover .team__member-socials {
   right: 0;
 }
 
@@ -122,32 +122,32 @@ margin-top: 1.4rem;
 
 /* ================= MEDIA QUERIED (TABLETS)============== */
 
-@media  screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .about__achievements {
     margin-top: 3rem;
   }
-  
 
 
-.about__achievements-container {
-  grid-template-columns: 1fr;
-  gap: 4rem;
-}
 
-.about__achievements-left {
-  width: 80%;
-  margin: 0 auto;
-}
+  .about__achievements-container {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
 
-.team__container {
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-}
+  .about__achievements-left {
+    width: 80%;
+    margin: 0 auto;
+  }
 
-.team__member {
+  .team__container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
 
-  padding: 1rem;
-}
+  .team__member {
+
+    padding: 1rem;
+  }
 
 
 }
@@ -157,25 +157,25 @@ margin-top: 1.4rem;
 /* ===============MEDIA QUERIES (MOBILE) ================ */
 
 
-@media screen and (max-width: 550px){
- 
- .achievements__cards {
-  grid-template-columns: 1fr 1fr;
-  gap: 0.7rem;
- }
+@media screen and (max-width: 550px) {
 
- .team__container{
-  grid-template-columns: 1fr 1fr;
-  gap: 0.7rem;
- }
+  .achievements__cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.7rem;
+  }
 
- .team__member {
-  padding: 0;
- }
+  .team__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.7rem;
+  }
 
-.team__member {
-  margin-bottom: 1.5rem;
-}
+  .team__member {
+    padding: 0;
+  }
+
+  .team__member {
+    margin-bottom: 1.5rem;
+  }
 
 
 
