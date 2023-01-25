@@ -9,7 +9,7 @@
 }
 
 body {
-  background-image: url("./images/bg-texture.png");
+  background-image: url("../images/bg-texture.png");
 }
 :root {
   --color-primary: #b352d1;
