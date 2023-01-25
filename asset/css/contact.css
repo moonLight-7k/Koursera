@@ -1,5 +1,5 @@
 body {
-  background-image: url("./images/bg-texture.png");
+  background-image: url("../images/bg-texture.png");
 }
 
 .contact__container {
@@ -79,6 +79,7 @@ body {
 .contact__form input[type="text"] {
   width: 50%;
 }
+
 .contact__form input,
 textarea {
   width: 100%;
@@ -106,6 +107,7 @@ textarea {
     height: auto;
     padding: 1rem;
   }
+
   .contact__aside {
     width: auto;
     padding: 1.5rem;
@@ -116,6 +118,7 @@ textarea {
     align-self: center;
     margin-right: 1.5rem;
   }
+
   .image {
     padding-right: 1.9rem;
   }
