@@ -1,4 +1,4 @@
-# Personal Website
+# Course Selling Website
 
 This is the repository for a **Course selling** website. The website is built using HTML, CSS, Bootstrap, Formspree and JavaScript and is hosted on GitHub Pages.
 
