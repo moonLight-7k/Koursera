@@ -12,7 +12,7 @@ This is the repository for a **Course selling** website. The website is built us
 
 ## Getting Started
 1. Clone or download the repository.
-2. Open the index.html file in your browser.
+2. Open the index.html(https://github.com/moonLight-7k/suhelkhan.github.io/blob/main/index.html) file in your browser.
 3. Explore the website and learn more!
 
 ## Contributing
